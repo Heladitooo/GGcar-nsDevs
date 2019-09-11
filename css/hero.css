@@ -110,6 +110,7 @@ body
     grid-template-columns: 1fr 1fr;
     grid-gap: 8px;
     justify-items: center;
+    width: 141%;
 }
 
 .hero-registrate__formulario--container div
@@ -123,7 +124,7 @@ body
 .password , .username , .email , .passwordRepeat
 {
     padding-left: 4px;
-    width: 280px;
+    max-width: 240px;
     border: 0;
     background: white;
     height: 35px;
@@ -136,7 +137,7 @@ body
 {
     margin-top: 5px;
 
-    width: 283px;
+    max-width: 243px;
     height: 37px;
     border: none;
 }
