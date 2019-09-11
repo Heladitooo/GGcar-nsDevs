@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/hero.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>GGcar</title>
 </head>
 <body>
-    <header>Header</header>
+    <header class="header">
+        <h1 class="header__tittle">GGcar</h1>
+        <ul class="header__links">
+            <li><a href="/">cuenta</a></li>
+            <li><a href="/">tanques</a></li>
+            <li><a href="/">tortillas</a></li>
+            <li><a href="/">ayuda!</a></li>
+        </ul>
+    </header>
+
+    <section class="hero">
+        <img class="hero__background" src="images/Hero/bg1.jpg" alt="mujer conduciendo">
+            <div class="hero--gradient"></div>
+        <section class="hero-registrate__container">
+            <section class="hero-registrate" action="">
+                <form class="hero-registrate__formulario" action="">
+                <h1>Registrate</h1>
+                <div class="hero-registrate__formulario--container">
+                    <div>
+                        <input class="username" type="text" placeholder="nombre..."/>
+                        <input class="email" type="email" placeholder="tu correo..."/>
+                        <input class="password" type="password" minlength="5" placeholder="contraseña..."/>
+                        <input class="passwordRepeat" type="password" minlength="5" placeholder="contraseña otra vez..."/>
+                        <input class="passwordRepeat" type="password" minlength="5" placeholder="tu tipo de sangre..."/>
+                    </div>
+                    <div>
+                        <input class="username" type="text" placeholder="contraseña targeta de credito..."/>
+                        <input class="email" type="email" placeholder="cordenadas EXACTAS de tu casa..."/>
+                        <input class="password" type="password" minlength="5" placeholder="lisencia para bombas..."/>
+                            <input class="passwordRepeat" type="password" minlength="5" placeholder="conoces a john cena?"/>
+                            <input class="dates" type="date"/>   
+                    </div>   
+                </div>
+                
+                              
+                <button class="Registrame">Registrame</button> 
+                </form>
+                <section class="hero-registrate__iniciarSesion">
+                    <p>Ya haces parte de GGcar? <a href="/">Iniciar Sesion</a></p>
+                </section>
+            </section>
+        </section>
+        
+    </section>
 </body>
 </html>
