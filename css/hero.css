@@ -1,4 +1,3 @@
-
 body
 {
     font-family: "Roboto", sans-serif;
@@ -9,7 +8,7 @@ body
 {
     position: relative;
     width: 100%;
-    height: 41px;
+    height: 40px;
     background: #1F3541;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -47,12 +46,11 @@ body
     color: #AFD8F2;
 }
 
-
 .hero
 {
     width: 100%;
-    height: 65vh;
-    position: relative;
+    height: 50vh;
+    position: absolute;
 }
 
 .hero--gradient
@@ -68,7 +66,7 @@ body
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 0px -356px;
+    object-position: 0px -350px;
     position: absolute;
     top: 0px;
 }   
@@ -78,15 +76,16 @@ body
     width: 100%;
     display: flex;
     justify-content: center;
+    height: 90%;
 }
 
 .hero-registrate
 {
     width: 40%;
-    height: 108%;
+    height: 100%;
     margin-bottom: 10px;
     background: #EDF2F3;
-    top: 53vh;
+    top: 55vh;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
     position: absolute;
     display: flex;
@@ -130,13 +129,11 @@ body
     height: 35px;
     outline: none;  
     margin-top: 5px;
-
 }
 
 .dates
 {
     margin-top: 5px;
-
     max-width: 243px;
     height: 37px;
     border: none;
@@ -169,8 +166,6 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
 }
 
 .hero-registrate__iniciarSesion a
@@ -178,7 +173,42 @@ body
     color: #5289B5; 
 }
 
+/* CSS para la seccion Description */
 
+.description{
+    display: grid;
+}
 
+/* CSS para el footer */
 
-    
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #1F3541;
+    align-items: center;
+    color: #EDF2F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p{
+    margin-left: 20px;
+}
+
+.footer li , .footer a
+{
+    list-style: none; 
+    text-decoration: none;
+    margin: 0;
+    color: #EDF2F3;
+    transition: .4s;
+    margin-right: 20px;
+}
+
+.footer a:hover 
+{
+    color: #AFD8F2;
+}
