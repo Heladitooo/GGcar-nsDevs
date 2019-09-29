@@ -1,4 +1,3 @@
-
 body
 {
     font-family: "Roboto", sans-serif;
@@ -42,7 +41,7 @@ body
     transition: .4s;
 }
 
-.header__links li:hover a
+.header__links li:hover  a
 {
     color: #AFD8F2;
 }
@@ -73,24 +72,29 @@ body
     top: 0px;
 }   
 
+/* CSS para el contendor del registrate */
+
 .hero-registrate__container
 {
     width: 100%;
     display: flex;
     justify-content: center;
+    height: 57vh;
 }
+
+/* CSS para el registrate */
 
 .hero-registrate
 {
     width: 40%;
-    height: 108%;
+    height: 71%;
     margin-bottom: 10px;
     background: #EDF2F3;
     top: 53vh;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
-    position: absolute;
     display: flex;
     flex-direction: column;
+    position: absolute;
     justify-content: space-around;
     align-items: center;
     font-size: 138%;
@@ -169,8 +173,6 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
 }
 
 .hero-registrate__iniciarSesion a
@@ -178,7 +180,42 @@ body
     color: #5289B5; 
 }
 
+/* CSS para la seccion Description */
 
+.description{
+    display: grid;
+}
 
+/* CSS para el footer */
 
-    
+.footer{
+    bottom: 0;
+    width: 100%;
+    background: #1F3541;
+    align-items: center;
+    color: #EDF2F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p{
+    margin-left: 20px;
+    margin: 0;
+}
+
+.footer li , .footer a
+{
+    list-style: none; 
+    text-decoration: none;
+    margin: 0;
+    color: #EDF2F3;
+    transition: .4s;
+    margin-right: 20px;
+}
+
+.footer a:hover 
+{
+    color: #AFD8F2;
+    margin: 0;
+}
