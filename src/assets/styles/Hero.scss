@@ -1,0 +1,24 @@
+.hero
+{
+    width: 100%;
+    height: 65vh;
+    position: relative;
+}
+
+.hero--gradient
+{
+    background: linear-gradient(to top, black 0%,rgba(0, 0, 0, 0.514) 20%, rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.hero__background
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px -356px;
+    position: absolute;
+    top: 0px;
+}   
