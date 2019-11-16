@@ -1,15 +1,13 @@
 import React from 'react';
-import '../assets/styles/Hero.scss';
-import RegisterBasic from './RegisterBasic';
+import '../assets/styles/Hero.scss'
 
 const Hero = () => {
     return(
         <section className="hero">
-        <img className="hero__background" src="https://patch.com/img/cdn/users/127241/2015/11/raw/2015115649d6a3ca281.jpg" alt="saludo"/>
-            <div className="hero--gradient">
-                <RegisterBasic/>
-            </div>
-    </section>
+            <img className="hero__img" src="https://miro.medium.com/max/4064/1*qYUvh-EtES8dtgKiBRiLsA.png" alt="Maps"/>
+            <div className="hero__div"></div>
+            <h1 className="hero__h1">Llevandote a tu <br/> destino</h1>
+        </section>
     )
 }
 

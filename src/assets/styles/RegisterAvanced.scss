@@ -1,0 +1,104 @@
+
+/* CSS para el registrate */
+
+.hero-registrate
+{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    background: #EDF2F3;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 138%;
+}
+
+.hero-registrate__formulario
+{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-registrate__formulario--container
+{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+    justify-items: center;
+    width: 141%;
+}
+
+.hero-registrate__formulario--container div
+{ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.password , .username , .email , .passwordRepeat
+{
+    padding-left: 4px;
+    max-width: 240px;
+    border: 0;
+    background: white;
+    height: 35px;
+    outline: none;  
+    margin-top: 5px;
+
+}
+
+.dates
+{
+    margin-top: 5px;
+
+    max-width: 243px;
+    height: 37px;
+    border: none;
+}
+
+.Registrame
+{
+    background: #1F3541;
+    outline: none;
+    border: none;
+    height: 37px;
+    width: 100%;
+    margin-top: 10px; 
+    color: white;
+    transition: .4s;
+}
+
+.Registrame:hover
+{
+    height: 39px;
+    width: 102%;
+    transform: translate(-4px , -2px);
+
+    border-right: 4px solid #3f6c88;
+    border-bottom: 4px solid #3f6c88;
+}
+
+.hero-registrate__iniciarSesion
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-registrate__iniciarSesion a
+{
+    color: #5289B5; 
+}
+
+/* CSS para la seccion Description */
+
+.description{
+    display: grid;
+}
+
+

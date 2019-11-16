@@ -1,15 +1,17 @@
 import React from 'react';
-import Header from '../components/Header';
 import Hero from '../components/Hero';
-import '../assets/styles/App.scss'
+import Information from '../components/Information';
+import Init from '../components/Init';
 
-const Home = () =>
-{
+
+const Home = () => {
     return(
-        <>
-            <Header/>
+        <section>
             <Hero/>
-        </>
+            <Information/>
+            <Init/>
+
+        </section>
     )
 }
 

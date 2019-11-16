@@ -35,6 +35,8 @@
     "webpack-dev-server": "^3.8.2"
   },
   "dependencies": {
+    "google-maps-react": "^2.0.2",
+    "react-router-dom": "^5.1.2",
     "static-server": "^2.2.1"
   }
 }

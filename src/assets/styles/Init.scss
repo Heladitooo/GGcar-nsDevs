@@ -1,0 +1,40 @@
+.Init
+{
+    display: grid;
+    height: 83%;
+    grid-template-columns: 59% 41%;
+    margin: 4% 0;
+    
+}
+
+.Init-div
+{
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 192%;
+    box-shadow: 6px 6px 3px #000000d9;
+    flex-direction: column;
+}
+
+.Init__button
+{
+    width: 338px;
+    height: 82px;
+    background: #1F3541;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 100%;
+    transition: .4s;
+}
+
+.Init__button:hover
+{
+    transform: scale(1.1);
+    transform: translate(-4px , -2px);
+
+    border-right: 4px solid #3f6c88;
+    border-bottom: 4px solid #3f6c88;
+}
