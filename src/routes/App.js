@@ -5,6 +5,8 @@ import Layout from '../components/Layout'
 import Home from '../containers/Home';
 import Maps from '../containers/Maps';
 import NewTravel from '../containers/NewTravel';
+import Drivers from '../containers/Drivers';
+
 
 
 const App = () =>
@@ -17,6 +19,8 @@ const App = () =>
                     <Route exact path='/register' component={Register}/>
                     <Route exact path='/new-travel' component={NewTravel}/>
                     <Route exact path='/maps' component={Maps}/>
+                    <Route exact path='/drivers' component={Drivers}/>
+
                 </Switch>
             </Layout>
         </BrowserRouter>

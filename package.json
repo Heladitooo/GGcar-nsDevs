@@ -36,6 +36,8 @@
   },
   "dependencies": {
     "google-maps-react": "^2.0.2",
+    "mapbox-gl": "^1.5.0",
+    "react-native-maps-directions": "^1.7.3",
     "react-router-dom": "^5.1.2",
     "static-server": "^2.2.1"
   }

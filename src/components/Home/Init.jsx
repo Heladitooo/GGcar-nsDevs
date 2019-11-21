@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/Init.scss';
+import '../../assets/styles/Home/Init.scss';
 import { Link } from 'react-router-dom';
 
 const Init = () => {

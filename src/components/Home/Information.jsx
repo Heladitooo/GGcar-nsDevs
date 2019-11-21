@@ -1,14 +1,16 @@
 import React from 'react';
-import '../assets/styles/Information.scss'
+import '../../assets/styles/Home/Information.scss'
+import { get } from 'http';
 
 const Information = () => {
+    
     return(
-        <section className="information">
+        <section className="information" id="information">
             <div className="information__1">
                 <img src="https://images.vexels.com/media/users/3/145581/isolated/preview/5bc4cfaada0c04dcd3228fb386b909d1-silueta-de-vista-frontal-de-coche-de-ciudad-by-vexels.png" alt=""/>
                 <p>Somos Rapidos, nuestros <br/>
                     conductores estan<br/>
-                    capacitados para lleguar a <br/>
+                    capacitados para llegar a <br/>
                     su destino lo mas rapido <br/>
                     posible de forma segura.
                 </p>

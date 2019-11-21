@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/styles/NewTravel.scss';
 
 const NewTravel = () =>
@@ -15,7 +16,9 @@ const NewTravel = () =>
                     <h4 className="newTravel-text__general">A donde quieres ir?</h4>
                     <input className="newTravel-text__input" type="text"/>
                 </div>
+                <Link to="/drivers">
                 <button>Calcular!</button>
+                </Link>
             </div>
             
         </section>
