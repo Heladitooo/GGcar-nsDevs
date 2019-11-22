@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Directions Service</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 90%;
+      }
+        html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: #292828;
+        font-family: system-ui;
+      }
+      input, button
+      {
+        height: 35px;
+        width: 232px;
+        font-size: 19px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 4px;
+        border: none;
+      }
+
+      .panel
+      {
+        display: flex;
+        align-items: center;
+        color: white;
+        height: 10%;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <section class="panel">
+        <input type="text" id="init" placeholder="Inicio(incluye el pais)">
+        <input type="text" id="end" placeholder="Destino!(incluye el pais)">
+        <button id="letsGo">ok</button>
+        <h1 id="information"></h1>
+    </section>
+       
+    <div id="map"></div>
+    <script src="index.js" ></script>
+    <script src="paint.js" ></script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmjvkXB_DMnBUNwxQztLMStyQmA_szbNw&callback=initMap">
+    </script>
+  </body>
+</html>
